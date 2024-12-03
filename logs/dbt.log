@@ -1,0 +1,30 @@
+[0m14:20:17.235562 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8893E4C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8892040B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8891B4620>]}
+
+
+============================== 14:20:17.238998 | ed2db4a8-bcfb-4d53-8076-a26746d925ac ==============================
+[0m14:20:17.238998 [info ] [MainThread]: Running with dbt=1.8.7
+[0m14:20:17.240046 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\pablo\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init dbtlearn', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:20:17.257202 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/pablo/.dbt')}
+[0m14:20:17.257202 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:20:17.259629 [debug] [MainThread]: Starter project path: C:\Users\pablo\Data Engineering\Curso dbt\.venv\Lib\site-packages\dbt\include\starter_project
+[0m14:20:17.276306 [info ] [MainThread]: 
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:20:17.277335 [info ] [MainThread]: Setting up your profile.
+[0m14:24:02.741998 [info ] [MainThread]: Profile dbtlearn written to C:\Users\pablo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:24:02.743455 [debug] [MainThread]: Command `dbt init` succeeded at 14:24:02.743455 after 225.63 seconds
+[0m14:24:02.743455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C8893E4C80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C885AC5250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C886F33C20>]}
+[0m14:24:02.743455 [debug] [MainThread]: Flushing usage events
